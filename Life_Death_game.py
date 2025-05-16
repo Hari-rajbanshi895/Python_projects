@@ -34,7 +34,8 @@ class BuckshotRoulette:
         return shells
 
     def draw_shell(self):
-        return self.shells.pop(0) if self.shells else None
+        return self.shells.pop(0) if self.shells else None 
+        # short hand if-else statement 
 
     def peek_shell(self):
         return self.shells[0] if self.shells else "none"
